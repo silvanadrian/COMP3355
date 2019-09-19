@@ -1,0 +1,10 @@
+# cipher = plain
+f=a
+g=b
+h=c
+i=d
+j=e
+k=f
+l=g
+m=h
+n=i

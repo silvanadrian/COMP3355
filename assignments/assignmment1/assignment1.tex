@@ -1,6 +1,27 @@
 \documentclass{article}
 \usepackage{minted}
 
+\setminted[console,text]{
+frame=lines,
+framesep=2mm,
+baselinestretch=1.1,
+linenos,
+breaklines}
+\setminted[text]{
+frame=lines,
+framesep=2mm,
+baselinestretch=1.1,
+linenos,
+breaklines}
+\setminted[console]{
+frame=lines,
+framesep=2mm,
+baselinestretch=1.1,
+linenos,
+breaklines}
+\usemintedstyle{friendly}
+\usepackage{amsmath}
+
 \title{COMP3355 \\Assignment 1}
 \author{Silvan Adrian}
 \date{\today}
@@ -12,21 +33,351 @@
 
 
 \begin{minted}{text}
-	ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd
+ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd
 \end{minted}
 
 \subsection{What is the substitution being used in the above cipher?}
 
-Ceasar Cipher so by shifting each character by a number.
-Since we 
+Caesar cipher so by shifting each character by an amount of characters.
+For analyzing I used the \texttt{TryAllTranslators} which then goes through every shift until the Text makes some sense.
+
+By doing so I ended up on the following mapping:
+\begin{minted}{text}
+a=o
+b=p
+c=q
+d=r
+e=s
+f=t
+g=u
+h=v
+i=w
+j=x
+k=y
+l=z
+m=a
+n=b
+o=c
+p=d
+q=e
+r=f
+s=g
+t=h
+u=i
+v=j
+w=k
+x=l
+y=m
+z=n
+\end{minted}
 
 \subsection{Recover the cipher text into plain text.}
+
+By then using the \texttt{Translator} and the above mentioned mapping I end up on the decrypted text:
+\begin{minted}{console}
+ciphertext:
+ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba 
+iqd
+
+plaintext :
+there isnos uchth ingas agrea ttale ntwit houtg reatw illpo wer
+\end{minted}
+
+So by writing it out nicely (right spacing):
+\begin{minted}{text}
+there is no such thing as a great talent without great willpower
+\end{minted}
 
 
 \section{Q2}
 
+\subsection{What is the inverse permutation (decryption key)?}
+We can get the inverse of the permutation just by placing each of the characters back on it's location, so we end up with the following:
+\begin{minted}{text}
+ssthiiht
+64123587
+thisisth
+\end{minted}
+
+
+\subsection{Decrypt the cipher text into plain text.}
+If we repeat on doing this over and over until the end of the text, we get the decrypted text:
+\begin{minted}{text}
+ssthiihttrefissaensigmtncuoforbyueerscirrotycues
+641235876412358764123587641235876412358764123587
+thisisthefirstassignmentofourcybersecuritycourse
+\end{minted}
+
 \section{Q3}
 
+
+Ok we have the following information:
+
+\begin{align}
+	K_0 = 1A5D6D895B4B66DB \\
+	input = A7E2BC3FD4C896D2
+\end{align}
+
+
+So we now take the input and convert it to binary (64 bits long):
+\begin{minted}{text}
+A7E2BC3FD4C896D2
+1010011111100010101111000011111111010100110010001001011011010010
+\end{minted}
+
+
+Here we have the in put permutation, so let's input our bits:
+\begin{minted}{text}
+58 50 42 34 26 18 10 2
+60 52 44 36 28 20 12 4
+62 54 46 38 30 22 14 6
+64 56 48 40 32 24 16 8
+57 49 41 33 25 17 9  1
+59 51 43 35 27 19 11 3
+61 53 45 37 29 21 13 5
+63 55 47 39 31 23 15 7
+\end{minted}
+
+\begin{minted}{text}
+1 0 1 1 0 0 1 0
+1 1 0 1 1 1 0 0
+0 1 0 1 1 1 0 1
+0 0 0 0 1 0 0 1
+1 1 1 1 0 1 1 1
+0 0 0 0 1 1 1 1
+0 0 1 0 1 1 0 0
+1 1 0 0 1 0 1 1
+\end{minted}
+
+
+By splitting it up we get $L_0$:
+
+\begin{minted}{text}
+1 0 1 1
+1 1 0 1
+0 1 0 1
+0 0 0 0
+1 1 1 1
+0 0 0 0
+0 0 1 0
+1 1 0 0
+\end{minted}
+
+$R_0$:
+\begin{minted}{text}
+0 0 1 0
+1 1 0 0
+1 1 0 1
+1 0 0 1
+0 1 1 1
+1 1 1 1
+1 1 0 0
+1 0 1 1
+\end{minted}
+
+
+$R_0$ and $L_0$ then get switched for round 1, so that we get for $L_1 = R_0$:
+
+\begin{minted}{text}
+0 0 1 0
+1 1 0 0
+1 1 0 1
+1 0 0 1
+0 1 1 1
+1 1 1 1
+1 1 0 0
+1 0 1 1
+\end{minted}
+
+
+For key we have in bits:
+\begin{minted}{text}
+1A5D6D895B4B66DB
+0001101001011101011011011000100101011011010010110110011011011011
+\end{minted}
+
+
+Then run Permutated Choice 1:
+\begin{minted}{text}
+1 0 0 0 1 0 0
+0 1 1 1 1 0 1
+1 0 0 1 0 0 0
+1 0 0 1 0 0 1
+1 1 1 1 0 0 0
+1 0 1 0 0 0 1
+1 0 1 0 1 1 1
+1 1 1 0 0 1 1
+\end{minted}
+
+
+That key we split up in 2 halves and shift 1 bit:
+
+\begin{minted}{text}
+1 0 0 0 1 0 0
+0 1 1 1 1 0 1
+1 0 0 1 0 0 0
+1 0 0 1 0 0 1
+
+1 1 1 1 0 0 0
+1 0 1 0 0 0 1
+1 0 1 0 1 1 1
+1 1 1 0 0 1 1
+
+
+after shift:
+0 0 0 1 0 0 0
+1 1 1 1 0 1 1
+0 0 1 0 0 0 1
+0 0 1 0 0 1 1
+
+1 1 1 0 0 0 1
+0 1 0 0 0 1 1
+0 1 0 1 1 1 1
+1 1 0 0 1 1 1
+\end{minted}
+
+
+After the shift we take the permutation choice 2:
+
+\begin{minted}{text}
+1 1 1 1 0 0 0 1
+0 0 1 1 0 0 0 1
+0 1 0 0 1 0 1 1
+1 0 1 1 1 1 1 0
+1 0 0 1 1 1 0 1
+0 0 1 1 1 0 1 0
+\end{minted}
+
+This Key we then need to xor with the Expanded input $R_1$, here is the expanded input:
+
+\begin{minted}{text}
+1 0 0 1 0 1
+0 1 1 0 0 1
+0 1 1 0 1 1
+1 1 0 0 1 0
+1 0 1 1 1 1
+1 1 1 1 1 1
+1 1 1 0 0 1
+0 1 0 1 1 0
+\end{minted}
+
+After Xor of key and $R_1$:
+
+\begin{minted}{text}
+011001001010011110111001000000010110001101101100
+\end{minted}
+
+Now we need to use the S-Boxes substitute:
+
+
+
+\begin{minted}{text}
+011001 -> 1 / 9 in S1
+001010 -> 0 / 5 in S2
+011110 -> 0 / 15 in S3
+111001 -> 3 / 12 in S4
+000000 -> 0 / 0 in S5
+010110 -> 0 / 11 in S6
+001101 -> 1 / 6 in S7
+101100 -> 2 / 6 in S8
+\end{minted}
+
+After we read out all the number from the S-Boxes:
+
+\begin{minted}{text}
+0110 -> 6
+1011 -> 11
+1000 -> 8
+1100 -> 12
+0010 -> 2
+0100 -> 4
+0001 -> 1
+1110 -> 14
+\end{minted}
+
+After that xor it with $L_1$ and we end up on $R_1$:
+\begin{minted}{text}
+xor:
+01101011100011000010010000011110
+00101100110110010111111111001011
+\end{minted}
+
+
+Then we get $R_1$:
+
+\begin{minted}{text}
+0 1 0 0
+0 1 1 1
+0 1 0 1
+0 1 0 1
+0 1 0 1
+1 0 1 1
+1 1 0 1
+0 1 0 1
+\end{minted}
+
+So we end up having both $R_1$ and $L_1$.
+
 \section{Q4}
+
+\subsection{What type of cipher is it? (Monoalphabetic / Polyalphabetic)}
+It's a Polyalphabetic cipher, I did the test by using the \texttt{TryAllTranslator} which didn't end up with a proper solution.
+And by using the \texttt{Analyzer} from which we can see the Index of coincidence which shows us that it was actually encrypted by using a Polyalphabetic cipher.
+
+\subsection{Give the permutation(s) (if any) or the substitution(s) used in the cipher.}
+As a key length 7 got used and for encryption with vigenere the key "rosebud" got used, as from the Movie Citizen Kane.
+
+
+\subsection{Recover the cipher text into plain text.}
+We start by analyzing the cipher text by using the \texttt{Analyzer} from which we get the longest repeated sequence:
+
+\begin{minted}{text}
+--- 12-grams counting ------------
+evmwiodmbbdj 2 position=459,746
+\end{minted}
+
+Then 746-459 = 287 and get the factor:
+
+\begin{minted}{console}
+Factor of 287 include:
+7 41 287 
+\end{minted}
+
+I will go for the factor 7 since it's the smallest one which makes the most sense.
+So we expect the key length to be 7.
+
+
+From here on we need to find the 7 characters with which the cipertext has been encrypted, I ended up on the following sequence (with support of the Kasiski method) and guessing:
+
+\begin{minted}{console}
+java PolyTranslator ../q4.txt  7 RR.txt OO.txt SS.txt EE.txt BB.txt UU.txt DD.txt
+\end{minted}
+
+Which then gives me the following decrypted text:
+\begin{minted}{text}
+overr ecent decad esaus trali asfor eignr elati onsha vebee
+ndriv enbya close assoc iatio nwith theun iteds tates throu
+ghthe anzus pacta ndbya desir etode velop relat ionsh ipswi
+thasi aandt hepac ificp artic ularl ythro ughas eanan dthep
+acifi cisla ndsfo rumth reeye arsag oaust ralia secur edani
+naugu ralse atatt heeas tasia summi tfoll owing itsac cessi
+ontot hetre atyof amity andco opera tiona ustra liais amemb
+eroft hecom monwe altho fnati onsin which theco mmonw ealth
+heads ofgov ernme ntmee tings provi dethe mainf orumf orcoo
+perat ionau stral iahas energ etica llypu rsued theca useof
+inter natio naltr adeli beral isati onaus trali aledt hefor
+matio nofth ecair nsgro upand asiap acifi cecon omicc ooper
+ation itisa membe rofth eorga nisat ionfo recon omicc ooper
+ation andde velop menta ndthe world trade organ izati onthe
+reare sever almaj orbil atera lfree trade agree ments austr
+aliah aspur suedm ostre centl ythea ustra liaun iteds tates
+freet radea greem entan dclos ereco nomic relat ionsw ithne
+wzeal andaf oundi ngmem berco untry ofthe unite dnati onsau
+stral iaals omain tains anint ernat ional aidpr ogram under
+which somes ixtyc ountr iesre ceive assis tance thebu dgetp
+rovid esove rtwoa ndaha lfbil lionf ordev elopm entas sista
+nceas aperc entag eofgd pthis contr ibuti onisl essth antha
+tofth eunmi llenn iumde velop mentg oals
+\end{minted}
 
 \end{document}

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/Assignment2Test.java" line="35" mnemonic="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f09e9736-6fc1-4f89-bf8d-a434b3e95efd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/as1_tutorial.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/assignment1-text.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/assignment1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/assignment1.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/q1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/q4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/1gram.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/2gram_cnt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/2gram_dist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/AA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Analyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Analyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/BB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/CC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/DD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/EE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/FF.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/GG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/HH.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/II.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/JJ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/KK.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Kasiski.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Kasiski.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/LL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/MM.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/NN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/OO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/PP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/PolyTranslator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/PolyTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/QQ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/RR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/SS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/TT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Translator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/Translator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/TryAllTranslators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/TryAllTranslators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/UU.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/VV.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/WW.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/XX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/YY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/ZZ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/demo1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/demo2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/map_demo1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignmment1/tools/map_demo1_soln.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1193466088">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2296" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2296" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Assignment2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Assignment2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Assignment2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Assignment2Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ass2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ass2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570156444483" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Assignment2Test.testInverseMod2">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Test.testInverseMod2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="METHOD_NAME" value="testInverseMod2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Test.testInverseModEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="METHOD_NAME" value="testInverseModEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Test.testIsPrimeBigNumber3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="METHOD_NAME" value="testIsPrimeBigNumber3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Test.testIsPrimeBigNumber4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="METHOD_NAME" value="testIsPrimeBigNumber4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Assignment2Test.testIsPrimeBigNumber3" />
+      <item itemvalue="JUnit.Assignment2Test.testIsPrimeBigNumber4" />
+      <item itemvalue="JUnit.Assignment2Test" />
+      <item itemvalue="JUnit.Assignment2Test.testInverseModEmpty" />
+      <item itemvalue="JUnit.Assignment2Test.testInverseMod2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Assignment2Test.testInverseMod2" />
+        <item itemvalue="JUnit.Assignment2Test.testInverseModEmpty" />
+        <item itemvalue="JUnit.Assignment2Test" />
+        <item itemvalue="JUnit.Assignment2Test.testIsPrimeBigNumber4" />
+        <item itemvalue="JUnit.Assignment2Test.testIsPrimeBigNumber3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09e9736-6fc1-4f89-bf8d-a434b3e95efd" name="Default Changelist" comment="" />
+      <created>1570084348271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570084348271</updated>
+      <workItem from="1570084353438" duration="8591000" />
+      <workItem from="1570152358367" duration="3264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Assignment2Test_testInverse - 2019.10.04 at 09h 53m 01s.xml">
+      <configuration name="Assignment2Test.testInverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverse - 2019.10.04 at 09h 53m 18s.xml">
+      <configuration name="Assignment2Test.testInverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverseMod - 2019.10.04 at 09h 55m 37s.xml">
+      <configuration name="Assignment2Test.testInverseMod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testIsPrimeBigNumber3 - 2019.10.04 at 10h 15m 58s.xml">
+      <configuration name="Assignment2Test.testIsPrimeBigNumber3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testIsPrimeBigNumber4 - 2019.10.04 at 10h 27m 52s.xml">
+      <configuration name="Assignment2Test.testIsPrimeBigNumber4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test - 2019.10.04 at 10h 31m 29s.xml">
+      <configuration name="Assignment2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverseModEmpty - 2019.10.04 at 10h 32m 05s.xml">
+      <configuration name="Assignment2Test.testInverseModEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverseModEmpty - 2019.10.04 at 10h 32m 25s.xml">
+      <configuration name="Assignment2Test.testInverseModEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverseMod2 - 2019.10.04 at 10h 32m 30s.xml">
+      <configuration name="Assignment2Test.testInverseMod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_testInverseMod2 - 2019.10.04 at 10h 32m 41s.xml">
+      <configuration name="Assignment2Test.testInverseMod2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11855000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32959184" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Assignment2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Assignment2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 (quizmaster) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ass2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19246861" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apiguardian:apiguardian-api:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -22,48 +22,48 @@ class Assignment2Test {
 
   @Test
   void testIsPrimeEmpty() {
-    Assertions.assertThrows(NumberFormatException.class, () -> Assignment2.isPrime(""));
+    Assertions.assertThrows(NumberFormatException.class, () -> Assignment2.checkPrime(""));
   }
 
   @Test
   void testIsPrimeString() {
-    Assertions.assertThrows(NumberFormatException.class, () -> Assignment2.isPrime("COMP3355"));
+    Assertions.assertThrows(NumberFormatException.class, () -> Assignment2.checkPrime("COMP3355"));
   }
 
   @Test
   void testIsPrimeSmallNumber() {
-    Assignment2.isPrime("123");
+    Assignment2.checkPrime("123");
     assertEquals("123 is not a prime number\n", outContent.toString());
   }
 
   @Test
   void testIsPrimeSmallNumber2() {
-    Assignment2.isPrime("2");
+    Assignment2.checkPrime("2");
     assertEquals("2 is a prime number\n", outContent.toString());
   }
 
   /*@Test took longer then 10 minutes to run
   void testIsPrimeBigNumber() {
-    Assignment2.isPrime("71755440315342536873");
+    Assignment2.checkPrime("71755440315342536873");
     assertEquals("71755440315342536873 is a prime number\n", outContent.toString());
   }
 
   @Test
   void testIsPrimeBigNumber4() {
-    Assignment2.isPrime("32361122672259149");
+    Assignment2.checkPrime("32361122672259149");
     assertEquals("32361122672259149 is a prime number\n", outContent.toString());
   }
   */
 
   @Test
   void testIsPrimeBigNumber3() {
-    Assignment2.isPrime("688846502588399");
+    Assignment2.checkPrime("688846502588399");
     assertEquals("688846502588399 is a prime number\n", outContent.toString());
   }
 
   @Test
   void testIsPrimeBigNumber2() {
-    Assignment2.isPrime("717554390687");
+    Assignment2.checkPrime("717554390687");
     assertEquals("717554390687 is a prime number\n", outContent.toString());
   }
 

@@ -5,10 +5,10 @@ class Assignment2 {
   private static BigInteger two = new BigInteger("2");
   private static BigInteger three = new BigInteger("3");
 
-  static void isPrime(String str) {
+  static void checkPrime(String str) {
     try {
       BigInteger number = new BigInteger(str);
-      if (isPrime(number)) {
+      if (checkPrime(number)) {
         System.out.println(number + " is a prime number");
       } else {
         System.out.println(number + " is not a prime number");
@@ -19,7 +19,7 @@ class Assignment2 {
     }
   }
 
-  private static boolean isPrime(BigInteger n) {
+  private static boolean checkPrime(BigInteger n) {
     if (n.compareTo(BigInteger.ONE) == 0 || n.compareTo(two) == 0) {
       return true;
     }
